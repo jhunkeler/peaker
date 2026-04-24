@@ -1,6 +1,7 @@
 # Peaker
 peaker_outputs
 _version.py
+*.png
 *.pdf
 *.csv
 

@@ -21,6 +21,7 @@ requires user credentials to Artifactory, and, for now, it works for JWST and RO
 
 Install with `pip install peaker`.
 
+
 ## Inputs
 
 The code requires only one input, a text file with the Artifactory user credentials.
@@ -72,6 +73,7 @@ Run `peaker` from the terminal as:
 ``-s``
     Skip downloading the xml files. This option requires the -x flag as well.
 
+
 ## Outputs
 
 There are a few outputs of the program:
@@ -107,24 +109,6 @@ There are a few outputs of the program:
    the first 3 and last 3 memory peaks, respectively. If there are less
    than 5 data points, the difference is calculated from the last minus
    the first memory peak.
-
-
-
-## Documentation
-
-To build the documents locally, in the terminal do:
-
-.. code-block:: bash
-
-    sphinx-build [docs_dir] [output_dir]
-
-or
-
-.. code-block:: bash
-
-    cd docs/
-    make html
-
 
 
 ## License
